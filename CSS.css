@@ -23,7 +23,7 @@ article {
 		 z-index: 1;
 		 padding-left: 1rem;
 		 padding-right: 0.5rem;
-		 width: 86.6rem;
+		 max-width: 86.6rem;
 		 margin: auto;
 }
 
@@ -73,7 +73,7 @@ abbr {text-decoration: none; cursor: default;}
 
 	/* iPad Airs */
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
-	html {font-size: 0.68rem;}
+	html {font-size: 0.4rem;}
 }
 
 /*** Nav Menu ***/
