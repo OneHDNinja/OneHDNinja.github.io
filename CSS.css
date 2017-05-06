@@ -85,6 +85,15 @@ abbr {text-decoration: none; cursor: default;}
 	}
 }
 
+/* Surface Pro 4 */
+@media screen and (orientation: landscape) {
+	@-ms-viewport {
+		  width: 2736px;
+	}
+	
+	html {font-size: 0.8rem;}
+}
+
 
 /*** Nav Menu ***/
 nav ul {
