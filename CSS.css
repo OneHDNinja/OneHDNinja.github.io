@@ -77,9 +77,9 @@ abbr {text-decoration: none; cursor: default;}
 	}
 }
 
-@media (width: 2736px) {
+@media (width: 1366px) {
 	html {
-		  font-size: 0.2rem;
+		  font-size: 0.7rem;
 	}
 }
 
