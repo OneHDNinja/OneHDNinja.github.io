@@ -77,6 +77,12 @@ abbr {text-decoration: none; cursor: default;}
 	}
 }
 
+@media (width: 2736px) {
+	html {
+		  font-size: 0.2rem;
+	}
+}
+
 /*** Nav Menu ***/
 nav ul {
 			 list-style: none;
