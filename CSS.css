@@ -97,7 +97,7 @@ abbr {text-decoration: none; cursor: default;}
 /* iPads */
 @media (width: 2048px) {
 	html {
-		  font-size: 0.79rem;
+		  font-size: 0.5rem;
 	}
 }
 
