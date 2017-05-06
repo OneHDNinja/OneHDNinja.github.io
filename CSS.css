@@ -61,46 +61,20 @@ abbr {text-decoration: none; cursor: default;}
 /*** Media Queries ***/
 
 		/* Ultrawides */
-@media screen and (width: 3440px) {
-	main {
-		  margin-left: 87.7rem;
-	}
-	header {
-		  text-align: center;
-	}
-	section {
-		  text-align: center;
-	}
+@media screen and (min-width: 3440px) {
+	main {margin-left: 87.7rem;}
+	header {text-align: center;}
+	section {text-align: center;}
 }
 	/* Standrad monitors */
-@media screen and (width: 1920px) {
-	main {
-		  margin-left: 14.2rem;
-	}
-}
-	/* HP Laptops */
-@media (width: 1366px) {
-	html {
-		  font-size: 0.79rem;
-	}
+@media screen and (min-width: 1920px) {
+	main {margin-left: 14.2rem;}
 }
 
-/* Surface Pro 4 */
-@media screen and (orientation: landscape) {
-	@-ms-viewport {
-		  width: 2736px;
-	}
-	
-	html {font-size: 0.79rem;}
+	/* iPad Airs */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	html {font-size: 0.7rem;}
 }
-
-/* iPads */
-@media (width: 2048px) {
-	html {
-		  font-size: 0.5rem;
-	}
-}
-
 
 /*** Nav Menu ***/
 nav ul {
