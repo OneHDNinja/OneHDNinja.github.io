@@ -73,7 +73,8 @@ abbr {text-decoration: none; cursor: default;}
 
 	/* iPad Airs */
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
-	html {font-size: 0.4rem;}
+	html {font-size: 0.68rem;}
+	nav {max-width: 89rem;}
 }
 
 /*** Nav Menu ***/
