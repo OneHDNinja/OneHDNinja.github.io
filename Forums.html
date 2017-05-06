@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>			
+<html lang="en" id="top" style="background: url(IndexBackground.jpg) no-repeat fixed center">
+
+	<head>
+	  <meta charset="UTF-8" />
+	  
+	  <link href="CSS.css" rel="stylesheet" type="text/css" />
+	  <title>GamingOTime - Home</title>
+	  
+		<style>
+		
+		nav li {background-color: #b3ecff;
+				border-top: 1px solid #004d99;
+			    border-bottom: 1px solid #004d99;}
+				
+		nav li:hover {background-color: #ccf2ff;}
+		
+		nav li li {border: 1px solid #004d99;
+					  background-color: #80dfff;
+					  border-bottom: none;}
+					  
+		nav li li:hover {background-color: #99e6ff;}
+		
+		.navborderleft {border-left: 1px solid #004d99;}
+		.navborderright {border-right: 1px solid #004d99;}
+		.navborderbottom {border-bottom: 1px solid #004d99!important;}
+		
+		nav a:link {color: #0059b3;}
+		nav a:visited {color: #0059b3;}
+		
+		a:link {color: #004080; text-decoration: none;}
+		a:visited {color: #004080;}
+		a:hover {color: #0073e6;}
+		
+		</style>
+	  
+	</head>
+
+<body>
+
+	<!--Logo + HomeLink-->
+
+	<main>
+		<a href="Index.html">
+		<img src="IndexLogo.png" alt="Gaming Over Time" />
+		</a>
+	</main>
+
+	<!--Navigation Menu-->	
+		
+
+	<nav>
+<ul>
+
+	<li class="navborderleft">
+	<a href="Mario1980s.html">Super Mario Bros. - 1980s</a>
+	
+		<ul>
+		<li><a href="Mario1980s.html">Super Mario 64</a></li>
+		<li><a href="Mario1980s.html">Super Mario Galaxy</a></li>
+		<li class="navborderbottom"><a href="Mario1980s.html">New Super Mario Bros. U</a></li>
+		</ul>
+		
+	</li>
+	
+	<li>
+	<a href="LoZ1990s.html">Legend of Zelda: OoT - 1990s</a>
+	
+		<ul>
+		<li><a href="LoZ1990s.html">LoZ: Twilight Princess</a></li>
+		<li><a href="LoZ1990s.html">LoZ: Phantom Hourglass</a></li>
+		<li class="navborderbottom"><a href="LoZ1990s.html">LoZ: Breath of the Wild</a></li>
+		</ul>
+		
+	</li>
+	
+	<li>
+	<a href="Pkmon2000s.html">Pokémon Diamond/Pearl - 2000s</a>
+	
+		<ul>
+		<li><a href="Pkmon2000s.html">Pokémon Heartgold/Soulsilver</a></li>
+		<li><a href="Pkmon2000s.html">Pokémon X/Y</a></li>
+		<li class="navborderbottom"><a href="Pkmon2000s.html">Pokémon Sun/Moon</a></li>
+		</ul>
+	
+	</li>
+	
+	<li>
+	 <a href="Xeno2010s.html">Xenoblade Chronicles - 2010s</a>
+	
+		<ul>
+		<li class="navborderbottom"><a href="Xeno2010s.html">Xenoblade Chronicles X</a></li>
+		</ul>
+	
+	</li>
+	
+	
+	<li>
+	<a href="Crysis3Now.html">Crysis 3 - Mid 2010s</a>
+	
+		<ul>
+		<li><a href="Crysis3Now.html">Doom (New)</a></li>
+		<li class="navborderbottom"><a href="Crysis3Now.html">Rise of the Tomb Raider</a></li>
+		</ul>
+	
+	</li>
+	
+	<li class="navborderright">
+	<a href="Forums.html">Forums + FAQ</a>
+	</li>
+
+
+</ul>
+	</nav>
+
+	<!--Page Content-->
+	
+	<article id="IndexArticle">
+
+<header class="contentpadtop">JavaScript Testing Ground</header>
+<section>
+
+<button type="button" onclick="changeDateTime()">
+Click here to display the current date and time below.</button>
+<p id="dateTime">So and so here.</p>
+
+<button type="button" onclick="response()">
+Click here to view a response.</button>
+<p id="text">So and so here.</p>
+
+<button type="button" onclick="imageChange()">
+Click here to change the logo's theme.</button>
+<p><img id="image" src="MarioLogo.png" /></p>
+
+<button type="button" onclick="styleChange()">
+Click here to change the the color and size of the text below.</button>
+<p id="style">So and so here</p>
+
+<button type="button" onclick="documentWriteChange()">
+Click here to make a calculation and wipe the page.</button>
+
+<br />
+
+<button type="button" onclick="windowAlertChange()">
+Click here to make a calculation and not wipe the page.</button>
+
+<br />
+
+<button type="button" onclick="consoleLogChange()">
+Click here to make a hidden calculation.</button>
+
+<br />
+
+<button type="button" onclick="calcTest()">
+Click here to make a calculation.</button>
+
+<button type="button" onclick="calcTestTwo(p1, p2)">
+Click here to make a second calculation.</button>
+
+
+</section>
+
+	</article>
+	
+	<p>
+	
+<footer style="background: rgba(242, 242, 242, 0.7)">Made by Alex Servanis 10A - V.C.E. I.T. Units 1 & 2</footer>
+	
+	</p>
+
+
+<script src="indexScript.js"></script>	
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+﻿/* Universal Modifiers */
+html {
+	  background-size: cover!important;
+	  -webkit-background-size: cover!important;
+	  -moz-background-size: cover!important;
+	  -o-background-size: cover!important;
+	  font-size: 1rem;
+}
+	  
+main {
+	  margin-left: 8rem;
+	  margin-top: 3.125rem;
+}
+
+nav {
+	 padding-bottom: 4.1rem;
+	 padding-top: 0.4rem;
+	 max-width: 88.3rem;
+	 margin: auto;
+}
+
+article {
+		 z-index: 1;
+		 padding-left: 1rem;
+		 padding-right: 0.5rem;
+		 width: 86.6rem;
+		 margin: auto;
+}
+
+header {
+	    font-size: 2.5rem;
+		font-weight: bold;
+		font-family: Candara;		
+		padding-bottom: 0.625rem;
+		padding-top: 1.875rem;
+}
+		
+section {
+	     font-size: 1.25rem;
+         font-family: Helvetica;
+		 line-height: 2.1875rem;
+}
+
+footer {
+		text-align: center;
+		font-size: 1.25rem;
+		height: 1.4375rem;
+		max-width: 33rem;
+		margin: auto;
+}
+
+a {
+   transition: color 0.3s;
+   -webkit-transition: color 0.3s;
+   -moz-transition: color 0.3s;
+   -o-transition: color 0.3s;
+}
+
+abbr {text-decoration: none; cursor: default;}
+
+/*** Media Queries ***/
+@media screen and (width: 3440px) {
+	main {
+		  margin-left: 87.7rem;
+	}
+	header {
+		  text-align: center;
+	}
+	section {
+		  text-align: center;
+	}
+}
+
+@media screen and (width: 1920px) {
+	main {
+		  margin-left: 14.2rem;
+	}
+}
+
+/*** Nav Menu ***/
+nav ul {
+			 list-style: none;
+			 margin: 0; 
+			 padding: 0;		  
+}
+
+nav li {
+			float: left; width: 14.6875rem; height: 1.875rem; 
+			font-weight: bold;
+			text-align: center; line-height: 1.875rem;
+			position: relative;
+			transition: background-color 0.5s;
+			-webkit-transition: background-color 0.5s;
+			-moz-transition: background-color 0.5s;
+			-o-transition: background-color 0.5s;
+}
+
+nav li ul {
+		   opacity: 0;
+		   visibility: hidden;
+		   transition: opacity 0.3s ease-in-out;
+		   -webkit-transition: opacity 0.3s ease-in-out;
+		   -moz-transition: opacity 0.3s ease-in-out;
+		   -o-transition: opacity 0.3s ease-in-out;	
+}
+
+nav li:hover ul {opacity: 1; visibility: visible;}
+
+nav li ul {  
+		   transition: all 0.2s ease-in-out;	
+		   -webkit-transition: all 0.2s ease-in-out;
+		   -moz-transition: all 0.2s ease-in-out;
+		   -o-transition: all 0.2s ease-in-out; 	 
+}
+
+nav li ul li { 	 
+			  font-weight: normal;
+			  z-index: 2;			 
+}
+
+nav a:link {text-decoration: none;}
+  
+/* IDs */	
+#IndexArticle {background: rgba(242, 242, 242, 0.8);}
+#MarioArticle {background: rgba(255, 250, 230, 0.8);}
+#ZeldaArticle {background: rgba(242, 255, 230, 0.8);}  
+ 
+/* Classes */
+.padtop {padding-top: 0.4375rem;}
+.padbottom {padding-bottom: 0.4375rem;}
+
