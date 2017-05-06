@@ -91,7 +91,14 @@ abbr {text-decoration: none; cursor: default;}
 		  width: 2736px;
 	}
 	
-	html {font-size: 0.8rem;}
+	html {font-size: 0.79rem;}
+}
+
+/* iPads */
+@media (width: 2048px) {
+	html {
+		  font-size: 0.79rem;
+	}
 }
 
 
