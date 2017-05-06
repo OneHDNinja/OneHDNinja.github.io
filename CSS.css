@@ -59,6 +59,8 @@ a {
 abbr {text-decoration: none; cursor: default;}
 
 /*** Media Queries ***/
+
+		/* Ultrawides */
 @media screen and (width: 3440px) {
 	main {
 		  margin-left: 87.7rem;
@@ -70,18 +72,21 @@ abbr {text-decoration: none; cursor: default;}
 		  text-align: center;
 	}
 }
-
+	/* Standrad monitors */
 @media screen and (width: 1920px) {
 	main {
 		  margin-left: 14.2rem;
 	}
 }
-
+	/* HP Laptops */
 @media (width: 1366px) {
 	html {
-		  font-size: 0.78rem;
+		  font-size: 0.79rem;
 	}
 }
+
+	/* Surface Pro 4 */
+@-ms-viewport 
 
 /*** Nav Menu ***/
 nav ul {
