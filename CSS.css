@@ -60,16 +60,37 @@ abbr {text-decoration: none; cursor: default;}
 
 /*** Media Queries ***/
 
-	/* Early iPhones */
-@media screen and (min-width: 320px) { 
-   html {font-size: 0.02rem;} 
+		/* Phones */
+@media screen and (min-width: 320px) {
+	html {font-size: 0.3rem;}
 }
 
-	/* Tablets + School Monitors */
-@media screen and (min-width: 1440px) {
+	    /* Tablets */
+@media screen and (min-width: 1024px) {
+	html {font-size: 0.6rem;}
+}
+
+		/* Laptops */
+@media screen and (min-width: 1280px) {
+	html {font-size: 0.65rem;}
+	
+}
+		/* School Monitors */
+@media screen and (max-width: 1440px) {
 	html {font-size: 0.83rem;}
 }
+		
+		/* Standard Monitors */
+@media screen and (max-width: 1920px) {
+	html {font-size: 1rem;}
+}
 
+		/* Ultrawides */
+@media screen and (min-width: 3440px) {
+	main {margin-left: 88.3rem;}
+	header {text-align: center;}
+	section {text-align: center;}
+}
 
 /*** Nav Menu ***/
 nav ul {
