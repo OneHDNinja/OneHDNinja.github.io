@@ -65,6 +65,11 @@ abbr {text-decoration: none; cursor: default;}
    html {font-size: 0.3rem;} 
 }
 
+	/* Tablets + School Monitors */
+@media screen and (max-width: 1440px) {
+	html {font-size: 0.83rem;}
+}
+
 
 /*** Nav Menu ***/
 nav ul {
