@@ -62,7 +62,7 @@ abbr {text-decoration: none; cursor: default;}
 
 	/* Early iPhones */
 @media screen and (min-width: 320px) { 
-   html {font-size: 0.3rem;} 
+   html {font-size: 0.1rem;} 
 }
 
 	/* Tablets + School Monitors */
