@@ -73,12 +73,12 @@ abbr {text-decoration: none; cursor: default;}
 	#logo {width: 390px; height: 56px;}
 }
 
-		/* School Monitors */
+		/* Tablets + School Monitors */
 @media screen and (max-width: 1440px) {
 	html {font-size: 0.83rem;}
 }
 		
-		/* Standard Monitors + Half Ultrawide */
+		/* Standard Monitors */
 @media screen and (max-width: 1920px) {
 	html {font-size: 1rem;}
 }
