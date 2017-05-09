@@ -61,7 +61,7 @@ abbr {text-decoration: none; cursor: default;}
 /*** Media Queries ***/
 
 		/* Early iPhones */
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 300px) {
 	html {font-size: 0.2rem;}
 }
 	
