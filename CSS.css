@@ -76,12 +76,12 @@ abbr {text-decoration: none; cursor: default;}
 	
 }
 		/* School Monitors */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
 	html {font-size: 0.83rem;}
 }
 		
-		/* Standard Monitors */
-@media screen and (max-width: 1920px) {
+		/* Standard Monitors + Half Ultrawide */
+@media screen and (min-width: 1715px) {
 	html {font-size: 1rem;}
 }
 
