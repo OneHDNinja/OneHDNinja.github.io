@@ -53,24 +53,10 @@ function consoleLogChange() {
 function calcTest() {
 		window.alert(p3 * p4);
 }
+
 var p3 = 9;
 var p4 = 3;	
 
-function calcTestTwo(p1, p2) {
-		window.alert(p1 * p2);
-}
-calcTestTwo(4,3);
-	
-	
-function smooth() {
-
-window.scroll({
-  top: 2500, 
-  left: 0, 
-  behavior: 'smooth' 
-});
-}
-	
 	
 	
 	

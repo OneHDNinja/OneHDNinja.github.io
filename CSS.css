@@ -66,12 +66,8 @@ abbr {text-decoration: none; cursor: default;}
 	header {text-align: center;}
 	section {text-align: center;}
 }
-	/* Standrad monitors */
-@media screen and (min-width: 1920px) {
-	main {margin-left: 14.2rem;}
-}
-
-	/* iPad Airs */
+	
+	    /* iPad Airs */
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	html {font-size: 0.65rem;}
 	nav {max-width: 88.4rem;}
