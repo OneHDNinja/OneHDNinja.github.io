@@ -61,8 +61,10 @@ abbr {text-decoration: none; cursor: default;}
 /*** Media Queries ***/
 
 	/* Early iPhones */
-@media screen and (max-device-width: 568px) {
-	html {font-size: 0.3rem;}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+   html {font-size: 0.3rem;}
 }
 
 	/* iPad Airs */
