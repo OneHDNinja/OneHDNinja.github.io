@@ -71,8 +71,8 @@ abbr {text-decoration: none; cursor: default;}
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	html {font-size: 0.65rem;}
 	nav {max-width: 88.4rem;}
-	main {margin-left: 3.4rem;}
-	#logo {width: 400px; height: 55px;}
+	main {margin-left: 3.6rem;}
+	#logo {width: 370px; height: 58px;}
 }
 
 /*** Nav Menu ***/
