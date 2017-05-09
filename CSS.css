@@ -68,22 +68,6 @@ and (orientation : portrait) {
    html {font-size: 0.3rem;} 
 }
 
-	/* Tablets + School Monitors */
-@media screen and (max-width: 1440px) {
-	html {font-size: 0.83rem;}
-}
-		
-	/* Standard Monitors */
-@media screen and (max-width: 1920px) {
-	html {font-size: 1rem;}
-}
-
-	/* Ultrawides */
-@media screen and (min-width: 3440px) {
-	main {margin-left: 87.7rem;}
-	header {text-align: center;}
-	section {text-align: center;}
-}
 
 /*** Nav Menu ***/
 nav ul {
