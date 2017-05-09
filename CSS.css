@@ -61,12 +61,12 @@ abbr {text-decoration: none; cursor: default;}
 /*** Media Queries ***/
 
 	/* Early iPhones */
-@media only screen and (max-width: 600px) { 
+@media screen and (min-width: 320px) { 
    html {font-size: 0.3rem;} 
 }
 
 	/* Tablets + School Monitors */
-@media only screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
 	html {font-size: 0.83rem;}
 }
 
