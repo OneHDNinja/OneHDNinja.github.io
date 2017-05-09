@@ -57,13 +57,22 @@ a {
 
 abbr {text-decoration: none; cursor: default;}
 
+/*** Media Queries ***/
+
+	    /* iPad Airs */
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	html {font-size: 0.65rem;}
+	nav {max-width: 88.4rem;}
+	main {margin-left: 3.9rem;}
+	#logo {width: 390px; height: 56px;}
+}
 
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : portrait) { 
-   html {font-size: 0.3rem;}
+   html {font-size: }
 }
 
 
