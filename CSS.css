@@ -56,12 +56,12 @@ abbr {text-decoration: none; cursor: default;}
 	
 		/* Phones */
 @media screen and (min-device-width: 320px) and (max-device-width: 749px) {
-	html {font-size: 0.3rem;}
+	html {font-size: 0.5rem;}
 }
 
 	    /* Tablets + Large Phones */
 @media screen and (min-device-width: 750px) and (max-device-width: 1299px) {
-	html {font-size: 0.6rem;}
+	html {font-size: 0.4rem;}
 	nav {max-width: 88.4rem;}
 }
 
