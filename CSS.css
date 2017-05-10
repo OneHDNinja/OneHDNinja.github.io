@@ -53,6 +53,13 @@ a {
 abbr {text-decoration: none; cursor: default;}
 
 /*** Media Queries ***/
+
+		/* Surface Pro 4 */
+@media screen and (device-width: 2736px) {
+	@-ms-viewport {
+		html {font-size: 0.5rem;}
+	}
+}
 	
 		/* Phones */
 @media screen and (min-device-width: 320px) and (max-device-width: 749px) {
@@ -79,8 +86,7 @@ abbr {text-decoration: none; cursor: default;}
 @media screen and (min-width: 3440px) {
 	header {text-align: center;}
 	section {text-align: center;}
-}	
-
+}
 
 /*** Nav Menu ***/
 nav ul {
