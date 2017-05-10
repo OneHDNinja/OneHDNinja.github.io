@@ -67,7 +67,7 @@ abbr {text-decoration: none; cursor: default;}
 
 		/* Laptops + Small Monitors */
 @media screen and (min-device-width: 1300px) and (max-device-width: 1714px) {
-	html {font-size: 0.79rem;}
+	html {font-size: 0.6rem;}
 }
 		
 		/* Standard Monitors + Half Ultrawide */
@@ -80,10 +80,7 @@ abbr {text-decoration: none; cursor: default;}
 	header {text-align: center;}
 	section {text-align: center;}
 	
-		/* Surface Pro 4 */
-@media screen and (device-width: 2736px) {
-		html {font-size: 0.5rem;}
-}
+
 
 /*** Nav Menu ***/
 nav ul {
