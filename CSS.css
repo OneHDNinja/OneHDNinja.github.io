@@ -67,12 +67,12 @@ abbr {text-decoration: none; cursor: default;}
 
 		/* Laptops + Small Monitors */
 @media screen and (min-device-width: 1300px) and (max-device-width: 1714px) {
-	html {font-size: 0.59rem;}
+	html {font-size: 0.79rem;}
 }
 		
 		/* Standard Monitors + Half Ultrawide */
 @media screen and (min-device-width: 1715px) {
-	html {font-size: 1rem;}
+	html {font-size: 1.2rem;}
 }
 
 		/* Ultrawides */
