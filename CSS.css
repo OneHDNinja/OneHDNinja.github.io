@@ -67,9 +67,6 @@ abbr {text-decoration: none; cursor: default;}
 	    /* Tablets + Large Phones */
 @media screen and (min-device-width: 750px) and (max-device-width: 1299px) {
 	html {font-size: 0.5rem;}
-	nav {max-width: 88.4rem;}
-	header {font-size: 0.7rem;}
-	section {font-size: 0.6rem;}
 }
 
 		/* Laptops + Small monitors */
@@ -84,7 +81,6 @@ abbr {text-decoration: none; cursor: default;}
 
 		/* Ultrawides */
 @media screen and (min-width: 3440px) {
-	main {margin-left: 88.3rem;}
 	header {text-align: center;}
 	section {text-align: center;}
 }
