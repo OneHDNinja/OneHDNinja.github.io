@@ -74,7 +74,7 @@ abbr {text-decoration: none; cursor: default;}
 
 		/* Laptops + Small monitors */
 @media screen and (min-device-width: 1300px) and (max-device-width: 1714px) {
-	html {font-size: 0.75rem;}
+	html {font-size: 0.77rem;}
 }
 		
 		/* Standard Monitors + Half Ultrawide */
