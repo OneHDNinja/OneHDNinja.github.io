@@ -52,9 +52,34 @@ a {
 
 abbr {text-decoration: none; cursor: default;}
 
+/*** Media Queries ***/
+	
+		/* Phones */
+@media screen and (min-device-width: 320px) and (max-device-width: 749px) {
+	html {font-size: 0.5rem;}
+}
 
+	    /* Tablets + Large Phones */
+@media screen and (min-device-width: 750px) and (max-device-width: 1299px) {
+	html {font-size: 0.6rem;}
+	nav {max-width: 88.4rem;}
+}
 
+		/* Laptops + Small Monitors */
+@media screen and (min-device-width: 1300px) and (max-device-width: 1714px) {
+	html {font-size: 0.79rem;}
+}
+		
+		/* Standard Monitors + Half Ultrawide */
+@media screen and (min-device-width: 1715px) {
+	html {font-size: 1rem;}
+}
 
+		/* Ultrawides */
+@media screen and (min-width: 3440px) {
+	header {text-align: center;}
+	section {text-align: center;}
+}	
 
 
 /*** Nav Menu ***/
