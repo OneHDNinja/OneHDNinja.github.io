@@ -72,7 +72,7 @@ abbr {text-decoration: none; cursor: default;}
 		
 		/* Standard Monitors + Half Ultrawide */
 @media screen and (min-device-width: 1715px) {
-	html {font-size: 1rem;}
+	html {font-size: 1.2rem;}
 }
 
 		/* Ultrawides */
