@@ -60,20 +60,20 @@ abbr {text-decoration: none; cursor: default;}
 /*** Media Queries ***/
 
 		/* Phones */
-@media screen and (min-device-width: 320px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 1023px) {
 	html {font-size: 0.3rem;}
 }
 
 	    /* Tablets + Large Phones */
-@media screen and (min-device-width: 1024px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1439px) {
 	html {font-size: 0.5rem;}
 	nav {max-width: 88.4rem;}
-	header {font-size: 0.8rem;}
-	section {font-size: 0.65rem;}
+	header {font-size: 0.7rem;}
+	section {font-size: 0.6rem;}
 }
 
 		/* Laptops + Small monitors */
-@media screen and (min-device-width: 1440px) {
+@media screen and (min-device-width: 1440px) and (max-device-width: 1714px) {
 	html {font-size: 0.83rem;}
 }
 		
