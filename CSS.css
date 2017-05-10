@@ -67,6 +67,7 @@ abbr {text-decoration: none; cursor: default;}
 	    /* Tablets + Large Phones */
 @media screen and (min-device-width: 750px) and (max-device-width: 1299px) {
 	html {font-size: 0.6rem;}
+	nav {max-width: 88.4rem;}
 }
 
 		/* Laptops + Small monitors */
