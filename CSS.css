@@ -56,9 +56,7 @@ abbr {text-decoration: none; cursor: default;}
 
 		/* Surface Pro 4 */
 @media screen and (device-width: 2736px) {
-	@-ms-viewport {
-		html {font-size: 0.5rem;}
-	}
+		html {font-size: 0.4rem;}
 }
 	
 		/* Phones */
