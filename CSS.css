@@ -52,6 +52,13 @@ a {
 
 abbr {text-decoration: none; cursor: default;}
 
+/*** Media Queries ***/
+	
+		/* Phones */
+@media screen and (min-device-width: 320px) and (max-device-width: 749px) {
+	html {font-size: 0.5rem;}
+}
+
 
 
 
