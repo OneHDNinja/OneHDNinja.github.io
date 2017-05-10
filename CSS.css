@@ -62,6 +62,8 @@ abbr {text-decoration: none; cursor: default;}
 		/* Phones */
 @media screen and (min-device-width: 320px) and (max-device-width: 749px) {
 	html {font-size: 1rem;}
+	article {width: 80%; margin: auto;}
+	
 }
 
 	    /* Tablets + Large Phones */
