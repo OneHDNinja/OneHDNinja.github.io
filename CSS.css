@@ -5,11 +5,6 @@ html {
 	  -moz-background-size: cover!important;
 	  -o-background-size: cover!important;
 }
-	  
-main {
-	  margin-left: 8rem;
-	  margin-top: 3.125rem;
-}
 
 nav {
 	 padding-bottom: 4.1rem;
@@ -59,11 +54,17 @@ abbr {text-decoration: none; cursor: default;}
 
 /*** Media Queries ***/
 
+		/* Surface Pro 4 */
+@media screen and (device-width: px) {
+	@-ms-viewport {
+		html {font-size: 0.5rem;}
+	}
+}
+		
+		
 		/* Phones */
 @media screen and (min-device-width: 320px) and (max-device-width: 749px) {
-	html {font-size: 1rem;}
-	article {min-width: 80%;}
-	
+	html {font-size: 0.5rem;}
 }
 
 	    /* Tablets + Large Phones */
@@ -72,7 +73,7 @@ abbr {text-decoration: none; cursor: default;}
 	nav {max-width: 88.4rem;}
 }
 
-		/* Laptops + Small monitors */
+		/* Laptops + Small Monitors */
 @media screen and (min-device-width: 1300px) and (max-device-width: 1714px) {
 	html {font-size: 0.79rem;}
 }
@@ -134,7 +135,13 @@ nav a:link {text-decoration: none;}
 /* IDs */	
 #IndexArticle {background: rgba(242, 242, 242, 0.8);}
 #MarioArticle {background: rgba(255, 250, 230, 0.8);}
-#ZeldaArticle {background: rgba(242, 255, 230, 0.8);}  
+#ZeldaArticle {background: rgba(242, 255, 230, 0.8);}
+
+#logo {
+	   display: block;
+	   margin: auto;
+	   margin-top: 3.125rem;
+}  
  
 /* Classes */
 .padtop {padding-top: 0.4375rem;}
